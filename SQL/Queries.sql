@@ -1,5 +1,3 @@
--- Here I will start writing our queries
-
 -- 1 normal selection
 SELECT * FROM AIRPLANE;
 
