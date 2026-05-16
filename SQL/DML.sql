@@ -110,7 +110,7 @@ VALUES
 (4, 4, 4, 4, '2026-01-01', 5, 100),
 (5, 5, 5, 5, '2026-01-01', 5, 100);
 
--- Here I applied updates to my tables
+
 
 UPDATE AIRPLANE
 SET status = 'MAINTENANCE'
@@ -134,7 +134,7 @@ WHERE event_id = 2;
 
 
 
--- Here I applied deletion to my tables
+
 
 DELETE FROM TEST_EVENT
 WHERE event_id = 5;
@@ -153,7 +153,7 @@ WHERE history_id = 6;
 
 
 
--- Here are selections to give different results
+
 
 SELECT manufacturer, model_name
 FROM PLANE_MODEL;
